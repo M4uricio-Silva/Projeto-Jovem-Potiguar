@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Matemáticas</title>
+</head>
+<body>
+    <script>
+        // Solicita dois números ao usuário
+        let numero1 = Number(prompt("Digite o primeiro número: "));
+        let numero2 = Number(prompt("Digite o segundo número: "));
+
+        let soma = numero1 + numero2;
+        let subtracao = numero1 - numero2;
+        let multiplicacao = numero1 * numero2;
+        let divisao = numero1 / numero2;
+        let restoDivisao = numero1 % numero2;
+
+        alert(
+            "Resultados:\n" +
+            "Soma: " + soma + "\n" +
+            "Subtração: " + subtracao + "\n" +
+            "Multiplicação: " + multiplicacao + "\n" +
+            "Divisão: " + divisao.toFixed(2) + "\n" +
+            "Resto da divisão: " + restoDivisao
+        );
+    </script>
+</body>
+</html>

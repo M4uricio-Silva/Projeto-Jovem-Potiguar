@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status de Aprovação</title>
+</head>
+<body>
+    <script>
+        // Determine o status de aprovação de um aluno com base na média. (< 4: Reprovado; ≤ 6 Recuperação; > 6: Aprovado)
+        let media = Number(prompt("Digite a sua média:"));
+
+        if (media >= 6) {
+            alert("Você foi aprovado.");
+        } else if (media >= 4) {
+            alert("Você está de recuperação.");
+        } else {
+            alert("Você está reprovado.");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar título</title>
+</head>
+<body>
+    <h1 id="Texto">Título original</h1>
+    <button id="botão">Alterar título</button>
+
+    <script>
+        let tituloOriginal = "Título original";
+        let tituloAlterado = "Título alterado";
+        let texto = document.getElementById("Texto");
+
+        document.getElementById("botão").addEventListener("click", function() {
+            if (texto.textContent === tituloOriginal) {
+                texto.textContent = tituloAlterado;
+            } else {
+                texto.textContent = tituloOriginal;
+            }
+        });
+    </script>
+
+</body>
+</html>

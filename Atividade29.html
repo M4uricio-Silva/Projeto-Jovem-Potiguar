@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Classe</title>
+    <style>
+        .destacado{
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p id="texto">Texto sem destaque</p>
+    <button id="botão">Destacar Texto</button>
+    <script>
+        document.getElementById("botão").addEventListener("click", function(){
+            document.getElementById("texto").classList.add("destacado");
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Classe</title>
+</head>
+<body>
+    <img id="imagem" src="img/ippo.png" alt="Imagem de exemplo">
+    <button id="botao">Trocar de imagem</button>
+    
+    <script>
+        document.getElementById("botao").addEventListener("click", function(){
+            document.getElementById("imagem").src = "img/ippo2.png";
+        })
+    </script>
+</body>
+</html>
